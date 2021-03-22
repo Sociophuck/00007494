@@ -3,17 +3,15 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApi.Models;
+using WebApi.DAL;
 
-namespace WebApi.Migrations
+namespace WebApi.DAL.Migrations
 {
     [DbContext(typeof(WebDbContext))]
-    [Migration("20210312141915_InitialCreate")]
-    partial class InitialCreate
+    partial class WebDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,7 +19,7 @@ namespace WebApi.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("WebApi.Models.Author", b =>
+            modelBuilder.Entity("WebApi.DAL.DBO.Author", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -51,7 +49,7 @@ namespace WebApi.Migrations
                     b.ToTable("Authors");
                 });
 
-            modelBuilder.Entity("WebApi.Models.Book", b =>
+            modelBuilder.Entity("WebApi.DAL.DBO.Book", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -89,9 +87,9 @@ namespace WebApi.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("WebApi.Models.Book", b =>
+            modelBuilder.Entity("WebApi.DAL.DBO.Book", b =>
                 {
-                    b.HasOne("WebApi.Models.Author", "Author")
+                    b.HasOne("WebApi.DAL.DBO.Author", "Author")
                         .WithMany("Books")
                         .HasForeignKey("AuthorId")
                         .OnDelete(DeleteBehavior.Cascade)

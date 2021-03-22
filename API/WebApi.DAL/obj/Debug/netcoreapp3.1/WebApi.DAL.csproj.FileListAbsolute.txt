@@ -1,0 +1,12 @@
+C:\WAD_Coursework\00007494\API\WebApi.DAL\bin\Debug\netcoreapp3.1\WebApi.DAL.deps.json
+C:\WAD_Coursework\00007494\API\WebApi.DAL\bin\Debug\netcoreapp3.1\WebApi.DAL.dll
+C:\WAD_Coursework\00007494\API\WebApi.DAL\obj\Debug\netcoreapp3.1\WebApi.DAL.csprojAssemblyReference.cache
+C:\WAD_Coursework\00007494\API\WebApi.DAL\obj\Debug\netcoreapp3.1\WebApi.DAL.AssemblyInfoInputs.cache
+C:\WAD_Coursework\00007494\API\WebApi.DAL\obj\Debug\netcoreapp3.1\WebApi.DAL.AssemblyInfo.cs
+C:\WAD_Coursework\00007494\API\WebApi.DAL\bin\Debug\netcoreapp3.1\WebApi.DAL.runtimeconfig.json
+C:\WAD_Coursework\00007494\API\WebApi.DAL\bin\Debug\netcoreapp3.1\WebApi.DAL.runtimeconfig.dev.json
+C:\WAD_Coursework\00007494\API\WebApi.DAL\obj\Debug\netcoreapp3.1\WebApi.DAL.genruntimeconfig.cache
+C:\WAD_Coursework\00007494\API\WebApi.DAL\bin\Debug\netcoreapp3.1\WebApi.DAL.pdb
+C:\WAD_Coursework\00007494\API\WebApi.DAL\obj\Debug\netcoreapp3.1\WebApi.DAL.csproj.CoreCompileInputs.cache
+C:\WAD_Coursework\00007494\API\WebApi.DAL\obj\Debug\netcoreapp3.1\WebApi.DAL.dll
+C:\WAD_Coursework\00007494\API\WebApi.DAL\obj\Debug\netcoreapp3.1\WebApi.DAL.pdb

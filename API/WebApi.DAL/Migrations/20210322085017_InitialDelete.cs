@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WebApi.Migrations
+namespace WebApi.DAL.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class InitialDelete : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

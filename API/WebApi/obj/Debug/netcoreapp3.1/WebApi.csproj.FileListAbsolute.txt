@@ -308,3 +308,5 @@ C:\WAD_Coursework\00007494\API\WebApi\obj\Debug\netcoreapp3.1\staticwebassets\We
 C:\WAD_Coursework\00007494\API\WebApi\obj\Debug\netcoreapp3.1\WebApi.dll
 C:\WAD_Coursework\00007494\API\WebApi\obj\Debug\netcoreapp3.1\WebApi.pdb
 C:\WAD_Coursework\00007494\API\WebApi\obj\Debug\netcoreapp3.1\WebApi.genruntimeconfig.cache
+C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\WebApi.DAL.dll
+C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\WebApi.DAL.pdb
