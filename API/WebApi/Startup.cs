@@ -26,7 +26,15 @@ namespace WebApi
 
             services.AddDbContext<WebDbContext>(opt =>
                opt.UseSqlServer(Configuration.GetConnectionString("WebApiDB")));
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Any", policy => policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+            });
+
             services.AddControllers();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +46,8 @@ namespace WebApi
             }
 
             app.UseRouting();
+
+            app.UseCors("Any");
 
             app.UseAuthorization();
 

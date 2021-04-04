@@ -18,15 +18,16 @@ namespace WebApi.DAL.DBO
         [Required]
         [MinLength(2)]
         public string LastName { get; set; }
-        
-        [Required]
-        public DateTime DoB { get; set; }
 
+        [Required]
         [Range(12, int.MaxValue)]
         public int Age { get; set; }
 
         [Required]
         public string CountryOfBirth { get; set; }
+
+        [Required]
+        public string Bio { get; set; }
 
         public virtual ICollection<Book> Books { get; set; }
 
