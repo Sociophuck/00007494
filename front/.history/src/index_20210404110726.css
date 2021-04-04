@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.header-links {
+  display: flex;
+}
+.header-links > a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+.header-links > a:hover {
+  color: turquoise;
+}

@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+
+.header-links {
+  display: flex;
+}
+.header-links > a {
+  margin-left: 12px;
+}

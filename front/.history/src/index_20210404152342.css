@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.header-links {
+  display: flex;
+}
+.header-links > a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+.header-links > a:hover {
+  color: lightblue;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.divide {
+  margin: 10px 0;
+}
