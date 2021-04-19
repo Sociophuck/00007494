@@ -155,7 +155,6 @@ C:\Users\norim\Desktop\API_test1\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.Co
 C:\Users\norim\Desktop\API_test1\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\appsettings.json
-C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\WebApi.exe
 C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\WebApi.deps.json
 C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\WebApi.runtimeconfig.json
@@ -310,3 +309,4 @@ C:\WAD_Coursework\00007494\API\WebApi\obj\Debug\netcoreapp3.1\WebApi.pdb
 C:\WAD_Coursework\00007494\API\WebApi\obj\Debug\netcoreapp3.1\WebApi.genruntimeconfig.cache
 C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\WebApi.DAL.dll
 C:\WAD_Coursework\00007494\API\WebApi\bin\Debug\netcoreapp3.1\WebApi.DAL.pdb
+C:\WAD_Coursework\00007494\API\WebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebApi.styles.css

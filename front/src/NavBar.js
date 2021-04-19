@@ -34,9 +34,19 @@ function NavBar() {
                 Authors
               </Typography>
             </Link>
+            <Link to="/authors/create">
+              <Typography variant="h6" color="inherit">
+                Add author
+              </Typography>
+            </Link>
             <Link to="/books">
               <Typography variant="h6" color="inherit">
                 Books
+              </Typography>
+            </Link>
+            <Link to="/books/create">
+              <Typography variant="h6" color="inherit">
+                Add book
               </Typography>
             </Link>
           </div>

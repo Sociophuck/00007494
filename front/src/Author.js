@@ -8,14 +8,15 @@ import { Container } from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardHeader from "@material-ui/core/CardHeader";
-import { DeleteOutlined } from "@material-ui/icons";
+import { DeleteOutlined, EditOutlined } from "@material-ui/icons";
 import IconButton from "@material-ui/core/IconButton";
 import { Link } from "react-router-dom";
 import CardActions from "@material-ui/core/CardActions";
 import Divider from "@material-ui/core/Divider";
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 function Author() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState();
   useEffect(() => {
     axios
       .get("http://localhost:3318/api/Authors")
@@ -27,6 +28,18 @@ function Author() {
         console.log(error);
       });
   }, []);
+
+  if (!data) {
+    return (
+      <Container>
+        <CircularProgress />
+      </Container>
+    );
+  }
+
+  if (data.length == 0) {
+    return <Container>No Authors to show</Container>;
+  }
 
   const handleDelete = async (id) => {
     await axios.delete(`http://localhost:3318/api/Authors/${id}`);
@@ -84,15 +97,11 @@ function AuthorCard({ author, handleDelete }) {
               Learn More
             </Typography>
           </Link>
+          <Link to={`/author/${author.id}/edit`}>
+            <EditOutlined color="secondary" />
+          </Link>
         </CardActions>
-        {/* <CardContent>
-          <Typography>{author.countryOfBirth}</Typography>
-        </CardContent> */}
       </Card>
     </div>
   );
-}
-
-{
-  /* <Paper>{item.firstName}</Paper> */
 }
